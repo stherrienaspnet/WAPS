@@ -1,0 +1,12 @@
+C:\MTTProjects\R&D\MTTWebAPISeed\MTTWebAPI.Domain\bin\Debug\MTTWebAPI.Domain.dll
+C:\MTTProjects\R&D\MTTWebAPISeed\MTTWebAPI.Domain\bin\Debug\MTTWebAPI.Domain.pdb
+C:\MTTProjects\R&D\MTTWebAPISeed\MTTWebAPI.Domain\bin\Debug\Dapper.dll
+C:\MTTProjects\R&D\MTTWebAPISeed\MTTWebAPI.Domain\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\MTTProjects\R&D\MTTWebAPISeed\MTTWebAPI.Domain\bin\Debug\Microsoft.Practices.Unity.dll
+C:\MTTProjects\R&D\MTTWebAPISeed\MTTWebAPI.Domain\bin\Debug\Dapper.pdb
+C:\MTTProjects\R&D\MTTWebAPISeed\MTTWebAPI.Domain\bin\Debug\Dapper.xml
+C:\MTTProjects\R&D\MTTWebAPISeed\MTTWebAPI.Domain\bin\Debug\Microsoft.Practices.Unity.xml
+C:\MTTProjects\R&D\MTTWebAPISeed\MTTWebAPI.Domain\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\MTTProjects\R&D\MTTWebAPISeed\MTTWebAPI.Domain\obj\Debug\MTTWebAPI.Domain.csprojResolveAssemblyReference.cache
+C:\MTTProjects\R&D\MTTWebAPISeed\MTTWebAPI.Domain\obj\Debug\MTTWebAPI.Domain.dll
+C:\MTTProjects\R&D\MTTWebAPISeed\MTTWebAPI.Domain\obj\Debug\MTTWebAPI.Domain.pdb
