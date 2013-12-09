@@ -6,10 +6,10 @@ For this seed application we do not intend to use Entity Framework because of th
 
 Here is a list of component used:
 
-SimpleInjector: Very fast IOC Container
-Dapper: Very Fast ORM
-Angular.Js: Very Fast UI Framework
-SQL Server - Stored Procedure: Very Powerfull
+SimpleInjector: a very fast IOC Container, 
+Dapper: a very Fast ORM,
+Angular.Js: a very Fast & Powerfull UI Framework,
+SQL Server - Stored Procedure: a very Powerfull query execution mecanism
 
 
 
