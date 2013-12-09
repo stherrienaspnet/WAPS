@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MTTWebAPI.Domain.Entities
+﻿namespace MTTWebAPI.Domain.Entities
 {
     class Board
     {

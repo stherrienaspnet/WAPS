@@ -42,9 +42,6 @@ C:\Users\steph\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Tests\obj\Deb
 C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Tests\bin\Debug\WAPS.BookStore.Tests.dll.config
 C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Tests\bin\Debug\WAPS.BookStore.Tests.dll
 C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Tests\bin\Debug\WAPS.BookStore.Tests.pdb
-C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
-C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Tests\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
-C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Tests\bin\Debug\Microsoft.Practices.Unity.dll
 C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
 C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Tests\bin\Debug\Microsoft.Web.Mvc.FixedDisplayModes.dll
 C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Tests\bin\Debug\Newtonsoft.Json.dll
@@ -57,16 +54,12 @@ C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Tests\bin\Deb
 C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
 C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Tests\bin\Debug\System.Web.WebPages.dll
 C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Tests\bin\Debug\System.Web.WebPages.Razor.dll
-C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Tests\bin\Debug\Unity.WebApi.dll
 C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Tests\bin\Debug\WAPS.BookStore.Domain.dll
 C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Tests\bin\Debug\WAPS.BookStore.WebUI.dll
+C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Tests\bin\Debug\SimpleInjector.dll
 C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Tests\bin\Debug\Dapper.dll
 C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Tests\bin\Debug\WAPS.BookStore.Domain.pdb
 C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Tests\bin\Debug\WAPS.BookStore.WebUI.pdb
-C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
-C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
-C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Tests\bin\Debug\Microsoft.Practices.Unity.xml
-C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Tests\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
 C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Tests\bin\Debug\Newtonsoft.Json.xml
 C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Tests\bin\Debug\System.Net.Http.Formatting.xml
 C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Tests\bin\Debug\System.Web.Helpers.xml
@@ -77,6 +70,7 @@ C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Tests\bin\Deb
 C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Tests\bin\Debug\System.Web.WebPages.xml
 C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Tests\bin\Debug\SimpleInjector.xml
 C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Tests\bin\Debug\Dapper.pdb
 C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Tests\bin\Debug\Dapper.xml
 C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Tests\obj\Debug\WAPS.BookStore.Tests.csprojResolveAssemblyReference.cache

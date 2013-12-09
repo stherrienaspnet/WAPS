@@ -3,8 +3,8 @@ using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Routing;
 using System.Web.Security;
-using Microsoft.Practices.Unity;
 using MTTWebAPI.WebUI;
+using SimpleInjector;
 using WAPS.BookStore.WebUI.Injection;
 using WebMatrix.WebData;
 
@@ -16,10 +16,30 @@ namespace WAPS.BookStore.WebUI
 	{
 		protected void Application_Start()
 		{
-			Bootstrapper.Initialise();
+            // Create the container as usual.
+            var container = new Container();
+
+            var services = GlobalConfiguration.Configuration.Services;
+            var controllerTypes = services.GetHttpControllerTypeResolver()
+                .GetControllerTypes(services.GetAssembliesResolver());
+
+            // register Web API controllers (important! http://bit.ly/1aMbBW0)
+            foreach (var controllerType in controllerTypes)
+            {
+                container.Register(controllerType);
+            }
+
+            Bootstrapper.Initialise(container);
+
+            // Verify the container configuration
+            container.Verify();
+
+            // Register the dependency resolver.
+            GlobalConfiguration.Configuration.DependencyResolver =
+                new SimpleInjectorWebApiDependencyResolver(container);
 
 			AreaRegistration.RegisterAllAreas();
-			IWebApiConfig webApiConfig = Bootstrapper.Container.Resolve<IWebApiConfig>();
+			IWebApiConfig webApiConfig = container.GetInstance<IWebApiConfig>();
 
 			webApiConfig.Register(GlobalConfiguration.Configuration);
 			ConfigureWebApi(GlobalConfiguration.Configuration);

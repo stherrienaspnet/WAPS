@@ -1,7 +1,6 @@
 using System.Net.Http;
-using System.Web.Http;
-using Microsoft.Practices.Unity;
 using MTTWebAPI.WebUI;
+using SimpleInjector;
 using WAPS.BookStore.Domain.Injection;
 using WAPS.BookStore.WebUI.Security;
 
@@ -9,28 +8,16 @@ namespace WAPS.BookStore.WebUI.Injection
 {
     public class Bootstrapper
     {
-	    private static IUnityContainer _container;
-		public static IUnityContainer Container { get { return _container; } }
-
-        public static void Initialise()
+        public static void Initialise(Container container)
         {
-			_container = BuildUnityContainer();
-			GlobalConfiguration.Configuration.DependencyResolver = new Unity.WebApi.UnityDependencyResolver(_container);
+            RegisterWebPackage(container);
+            DomainInjectionRegistration.RegisterPackage(container);
         }
 
-        private static IUnityContainer BuildUnityContainer()
+        private static void RegisterWebPackage(Container container)
         {
-            var container = new UnityContainer();
-			DomainInjectionRegistration.RegisterPackage(container);
-	        RegisterWebPackage(container);
-
-            return container;
+            container.Register<IWebApiConfig, WebApiConfig>();
+            container.Register<DelegatingHandler, TokenInspector>();
         }
-
-	    private static void RegisterWebPackage(UnityContainer container)
-	    {
-		    container.RegisterType<IWebApiConfig, WebApiConfig>();
-			container.RegisterType<DelegatingHandler, TokenInspector>();
-	    }
     }
 }
