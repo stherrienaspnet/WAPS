@@ -60,6 +60,7 @@
     <Compile Include="Entities\Board.cs" />
     <Compile Include="Entities\Feature.cs" />
     <Compile Include="Entities\UserProfile.cs" />
+    <Compile Include="Extenstions\StringExtensions.cs" />
     <Compile Include="Factories\SqlConnectionFactory.cs" />
     <Compile Include="Injection\DomainInjectionRegistration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

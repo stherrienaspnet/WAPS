@@ -18,6 +18,5 @@ C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Domain\bin\De
 C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Domain\bin\Debug\Dapper.xml
 C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Domain\bin\Debug\SimpleInjector.xml
 C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Domain\bin\Debug\SimpleInjector.Diagnostics.xml
-C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Domain\obj\Debug\WAPS.BookStore.Domain.csprojResolveAssemblyReference.cache
 C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Domain\obj\Debug\WAPS.BookStore.Domain.dll
 C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.Domain\obj\Debug\WAPS.BookStore.Domain.pdb

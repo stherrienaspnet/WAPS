@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using WAPS.BookStore.Domain.Repositories.Concrete;
 
-namespace MTTWebAPISeed.Tests.Integration
+namespace WAPS.BookStore.Tests.Integration
 {
 	[TestClass]
 	public class FeatureRepositoryTest

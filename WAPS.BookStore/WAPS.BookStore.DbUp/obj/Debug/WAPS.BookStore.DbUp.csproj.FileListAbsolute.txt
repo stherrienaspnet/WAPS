@@ -5,4 +5,3 @@ C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.DbUp\bin\Debu
 C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.DbUp\bin\Debug\DbUp.xml
 C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.DbUp\obj\Debug\WAPS.BookStore.DbUp.exe
 C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.DbUp\obj\Debug\WAPS.BookStore.DbUp.pdb
-C:\Users\st1th\Documents\GitHub\WAPS\WAPS.BookStore\WAPS.BookStore.DbUp\obj\Debug\WAPS.BookStore.DbUp.csprojResolveAssemblyReference.cache
