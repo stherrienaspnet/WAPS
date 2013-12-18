@@ -14,3 +14,7 @@ Dapper: a very Fast ORM,
 Angular.js: a very Fast & Powerfull UI Framework,
 D3.js - NVD3: a very powerfull Javascript Graphic Library (will be used soon)
 
+Instructions: 
+1- Download the code
+2- Create a database called WAPS_BookStore on SQL Express instance
+3- Run WAPS_BookStore.DbUp project
