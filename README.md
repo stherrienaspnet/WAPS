@@ -14,5 +14,3 @@ Dapper: a very Fast ORM,
 Angular.js: a very Fast & Powerfull UI Framework,
 D3.js - NVD3: a very powerfull Javascript Graphic Library (will be used soon)
 
-
-
