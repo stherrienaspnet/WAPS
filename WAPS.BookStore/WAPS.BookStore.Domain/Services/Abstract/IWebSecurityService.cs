@@ -37,5 +37,8 @@ namespace WAPS.BookStore.Domain.Services.Abstract
         bool ResetPassword(string passwordResetToken, string newPassword);
         bool UserExists(string userName);
 	    bool CanUserAccessFeature(string username, string featureUrl);
+        void SetUserSession(string username, Guid sessionId, DateTime expireAt);
+        bool IsSessionValid(string username, Guid sessionId);
+        void AbandonUserSession(string username);
     }
 }

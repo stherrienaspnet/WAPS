@@ -3,15 +3,17 @@ using WAPS.BookStore.Domain.Repositories.Abstract;
 using WAPS.BookStore.Domain.Services.Abstract;
 using WebMatrix.WebData;
 
-namespace MTTWebAPI.Domain.Services.Concrete
+namespace WAPS.BookStore.Domain.Services.Concrete
 {
     public class WebSecurityService : IWebSecurityService
     {
         private readonly IFeatureRepository _featureRepository;
+        private readonly IUserProfileRepository _userProfileRepository;
 
-        public WebSecurityService(IFeatureRepository pFeatureRepository)
+        public WebSecurityService(IFeatureRepository featureRepository, IUserProfileRepository userProfileRepository)
         {
-            _featureRepository = pFeatureRepository;
+            _featureRepository = featureRepository;
+            _userProfileRepository = userProfileRepository;
         }
 
         public string EnableSimpleMembershipKey
@@ -178,5 +180,25 @@ namespace MTTWebAPI.Domain.Services.Concrete
 	    {
 		    return _featureRepository.CanUserAccessFeature(username, featureUrl);
 	    }
+
+        public void SetUserSession(string username, Guid sessionId, DateTime expireAt)
+        {
+            _userProfileRepository.SetSessionId(username, sessionId, expireAt);
+        }
+
+        public void SetUserExpiration(string username, DateTime expireAt)
+        {
+            _userProfileRepository.SetExpireAt(username, expireAt);
+        }
+
+        public bool IsSessionValid(string username, Guid sessionId)
+        {
+            return _userProfileRepository.IsSessionValid(username, sessionId);
+        }
+
+        public void AbandonUserSession(string username)
+        {
+            _userProfileRepository.SetExpireAt(username, DateTime.UtcNow);
+        }
     }
 }

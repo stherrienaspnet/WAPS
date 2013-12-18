@@ -68,6 +68,7 @@
     <Compile Include="Repositories\Abstract\IGenericRepository.cs" />
     <Compile Include="Repositories\Abstract\IUserProfileRepository.cs" />
     <Compile Include="Repositories\Concrete\FeatureRepository.cs" />
+    <Compile Include="Repositories\Concrete\UserProfileRepository.cs" />
     <Compile Include="Services\Abstract\IMembershipService.cs" />
     <Compile Include="Services\Abstract\IWebSecurityService.cs" />
     <Compile Include="Services\Concrete\MembershipService.cs" />

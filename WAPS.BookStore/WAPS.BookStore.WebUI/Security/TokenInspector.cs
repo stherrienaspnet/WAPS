@@ -28,12 +28,18 @@ namespace WAPS.BookStore.WebUI.Security
                 try
                 {
                     Token token = Token.Decrypt(encryptedToken);
-                    bool isValidUserId = _webSecurityService.UserExists(token.UserId);// IdentityStore.IsValidUserId(token.UserId);
+                    bool isValidUserId = _webSecurityService.UserExists(token.UserId);
                     bool requestIPMatchesTokenIP = token.IP.Equals(request.GetClientIP());
-
+                    
                     if (!isValidUserId || !requestIPMatchesTokenIP)
                     {
                         HttpResponseMessage reply = request.CreateErrorResponse(HttpStatusCode.Unauthorized, "Invalid indentity or client machine.");
+                        return Task.FromResult(reply);
+                    }
+
+                    if (!_webSecurityService.IsSessionValid(token.UserId, Guid.Parse(token.SessionId)))
+                    {
+                        HttpResponseMessage reply = request.CreateErrorResponse(HttpStatusCode.Unauthorized, "Invalid session or session expired.");
                         return Task.FromResult(reply);
                     }
                 }

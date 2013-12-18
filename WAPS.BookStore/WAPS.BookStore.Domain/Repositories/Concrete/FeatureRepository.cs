@@ -21,9 +21,7 @@ namespace WAPS.BookStore.Domain.Repositories.Concrete
 		
 		public bool CanUserAccessFeature(string username, string featureUrl)
 		{
-            using (SqlConnection connection = SqlConnectionFactory.Create())
-            {
-                string sqlCmd = @"SELECT COUNT(*) FROM 
+            var sqlCmd = @"SELECT COUNT(*) FROM 
                             (	SELECT UserId FROM 
 	                            dbo.UserFeature UF JOIN Feature F ON UF.FeatureId = F.FeatureId 
 	                            WHERE F.Url = '@featureUrl' AND F.IsActive = 1
@@ -36,7 +34,10 @@ namespace WAPS.BookStore.Domain.Repositories.Concrete
                             )TB JOIN UserProfile UP ON TB.UserId = UP.UserId
                             WHERE UP.Email = '@username'";
 
-                sqlCmd = sqlCmd.Replace("@username", username).Replace("@featureUrl", featureUrl);
+            sqlCmd = sqlCmd.Replace("@username", username).Replace("@featureUrl", featureUrl);
+
+            using (SqlConnection connection = SqlConnectionFactory.Create())
+            {
                 return connection.Query<int>(sqlCmd.ToSqlFormat()).Single() > 0;
 			}
 		}

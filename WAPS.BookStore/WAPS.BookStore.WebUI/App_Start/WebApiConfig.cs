@@ -19,8 +19,8 @@ namespace MTTWebAPI.WebUI
 
 		    config.Routes.MapHttpRoute(
                 name: "Authentication",
-                routeTemplate: "api/user/{id}",
-                defaults: new { controller = "user" }
+                routeTemplate: "api/user/{action}/{id}",
+                defaults: new { controller = "user", id = RouteParameter.Optional }
             );
 
             config.Routes.MapHttpRoute(
