@@ -52,16 +52,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Scripts\Script0002 - Create SimpleSecurity Tables.sql" />
+    <EmbeddedResource Include="Scripts\Script0002 - Create Initial Data.sql" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Scripts\Script0001 - Create UserProfile Table.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Scripts\Script0003 - Create Feature Tables.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Scripts\Script0004 - Create security profiles data.sql" />
+    <EmbeddedResource Include="Scripts\Script0001 - Create Initial Schema.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
