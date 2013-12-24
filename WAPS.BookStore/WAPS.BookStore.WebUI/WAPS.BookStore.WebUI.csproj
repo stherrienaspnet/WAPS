@@ -146,6 +146,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Content Include="Global.asax" />
+    <Content Include="Index.html" />
     <Content Include="Unity.WebAPI.README.txt" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
