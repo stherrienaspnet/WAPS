@@ -2,7 +2,7 @@ WAPS
 ====
 
 .NET WebApi Angular Performance Seed where performance is the primary goal. 
-For this seed application we do not intend to use Entity Framework because of the performance concern and prefer to use only Stored procedure. The data mapping is executed by Dapper as its perform so fast compare to other competitor.
+For this seed application we do not intend to use Entity Framework because of the performance concern and prefer to use only pure Sql Code. The data mapping is executed by Dapper as its perform so fast compare to other competitor.
 
 The starting point of this project came from a really nice article at codeproject from Mister Patelsan.
 http://www.codeproject.com/Articles/630986/Cross-Platform-Authentication-With-ASP-NET-Web-API
